@@ -14,5 +14,6 @@ $nome = "claudio";
 </head>
 <body>
     <p><?php echo $nome; ?> </p>
+    <P>CIAONEEE</P>
 </body>
 </html>
