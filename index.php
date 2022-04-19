@@ -2,18 +2,8 @@
 
 $nome = "claudio"; 
 
+$cognome = " ". $_GET['cognome'] . " ";
+
+echo $nome . $cognome
 ?>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Un pò di PHP</title>
-</head>
-<body>
-    <p><?php echo $nome; ?> </p>
-    <P>CIAONEEE</P>
-</body>
-</html>
